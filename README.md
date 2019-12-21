@@ -1,4 +1,4 @@
-# Transferring Sensorimotor Cross-Perception and Cross-Behavior Knowledge for Object Categorization
+# A Framework for Sensorimotor Cross-Perception and Cross-Behavior Knowledge Transfer for Object Categorization
 
 **Abstract:**
 
