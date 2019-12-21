@@ -26,14 +26,14 @@ The neural networks were implemented in widely used deep learning framework `Ten
 
 Run: `python 1_source_b-ved_b-vae.py [mapping]`
 
-mapping: A2A, A2H, A2S, A2V, H2A, H2H, H2S, H2V, S2A, S2H, S2S, S2V, V2A, V2H, V2S, V2V <br>
+Mapping: A2A, A2H, A2S, A2V, H2A, H2H, H2S, H2V, S2A, S2H, S2S, S2V, V2A, V2H, V2S, V2V <br>
 Example: `python 1_source_b-ved_b-vae.py H2H`
 
-### Two Source Robot:
+### Two Source Robots:
 
 Run: `python 2_sources_b-vae.py [mapping]`
 
-mapping: AS2H, AS2V, HH2H, HV2S <br>
+Mapping: AS2H, AS2V, HH2H, HV2S <br>
 Example: `python 2_sources_b-vae.py HH2H`
 
 ## Experiment Pipeline 
@@ -73,20 +73,20 @@ data from the source context (i.e., how well it would do if it transfered knowle
 
 ### Accuracy Delta
 
-<img src="Results/bVEDN_Accuracy_Delta_cross_perception.jpg" alt="drawing" width="600px"/>
+<img src="Results/bVEDN_Accuracy_Delta_cross_perception.jpg" alt="drawing" width="1000px"/>
 
 ## Cross-Behavioral Sensorimotor Transfer
 
 ### Accuracy Results of Category Recognition
 
 #### 1 Source Robot:
-<img src="Results/5_bVEDN_Min_Acc_Delta_Mappings_(SVM)__cross_behavior" alt="drawing" width="600px"/>
+<img src="Results/5_bVEDN_Min_Acc_Delta_Mappings_(SVM)__cross_behavior.jpg" alt="drawing" width="600px"/>
 
 #### 2 Source Robots:
 <img src="Results/best_2_sources_b-VED_cross_behavior.jpg" alt="drawing" width="600px"/>
 
 ### Accuracy Delta
 
-<img src="Results/bVEDN_Accuracy_Delta_cross_behavior__toH.jpg" alt="drawing" width="600px"/>
+<img src="Results/bVEDN_Accuracy_Delta_cross_behavior__toH.jpg" alt="drawing" width="1000px"/>
 
 
